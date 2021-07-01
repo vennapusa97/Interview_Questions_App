@@ -1,0 +1,51 @@
+.heading-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: radial-gradient(#2b237c, #180d5b);
+}
+
+@media screen and (min-width: 577px) {
+  .heading-section-container {
+    flex-direction: row;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Playfair Display';
+  font-size: 32px;
+  font-weight: 700;
+  width: 200px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+    width: 385px;
+  }
+}
+
+.interview-img {
+  width: 350px;
+  height: 262px;
+}
+
+@media screen and (min-width: 768px) {
+  .interview-img {
+    width: 510px;
+    height: 409px;
+  }
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions-container {
+  width: 86%;
+}
